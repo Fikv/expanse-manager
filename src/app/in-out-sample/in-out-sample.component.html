@@ -1,0 +1,3 @@
+<button (click)="inc()">Increment counter</button>
+<p>Data from child : {{childCounter}}</p>
+<app-in-out-child-sample [counter]="counter" (counterEvent)="get($event)" />
